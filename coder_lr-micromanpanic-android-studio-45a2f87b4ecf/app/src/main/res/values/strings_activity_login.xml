@@ -1,0 +1,17 @@
+<resources>
+
+    <string name="title_activity_login">Ingreso</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Usuario</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in_register"><b>Ingresar</b> o Registrar</string>
+    <string name="action_sign_in_short">Ingresar</string>
+    <string name="action_forgot_password">Recuperar Password</string>
+    <string name="login_progress_signing_in">Ingresando&#8230;</string>
+    <string name="error_invalid_email">Usuario Invalido</string>
+    <string name="error_invalid_password">Password muy corto</string>
+    <string name="error_incorrect_password">Password Incorrecto</string>
+    <string name="error_field_required">Requerido</string>
+
+</resources>

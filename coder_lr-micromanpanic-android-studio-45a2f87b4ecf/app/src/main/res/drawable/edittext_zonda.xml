@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="30dp"
+    android:shape="rectangle"
+    android:thickness="0dp" >
+
+    <stroke
+        android:width="1dp"
+        android:color="@android:color/white" />
+
+    <corners android:radius="0dp" />
+
+    <size android:height="40dp" />
+
+    <gradient
+        android:angle="270"
+        android:endColor="@color/impar_celeste"
+        android:startColor="@color/par_celeste"
+        android:type="linear" />
+
+</shape>

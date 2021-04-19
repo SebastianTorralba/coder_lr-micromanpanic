@@ -1,0 +1,14 @@
+<resources>
+
+    <color name="black_overlay">#66000000</color>
+    <color name="negro_fondo">#000000</color>
+    <color name="azulQ">#69adef</color>
+    <color name="main_celeste">#00B2E7</color>
+    <color name="par_celeste">#e4e2e2</color>
+    <color name="impar_celeste">#ffffff</color>
+    <color name="colorPrimary">#ff4a44</color>
+    <color name="colorPrimaryDark">#ff6d68</color>
+    <color name="colorAccent">#b10b0b</color>
+    <color name="telefonosback">#c7c7c7</color>
+
+</resources>

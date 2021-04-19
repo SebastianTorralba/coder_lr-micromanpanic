@@ -1,0 +1,62 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/negro_fondo"
+    tools:context=".LockActivity">
+
+    <TextView
+        android:id="@+id/txtestadogps"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/btn_help"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="-34dp"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="GPS"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/btn_help"
+        android:layout_width="317dp"
+        android:layout_height="286dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="34dp"
+        android:background="@drawable/boton_panico_background"
+        android:enabled="false"
+        android:onClick="pedirAyuda" />
+
+    <com.ncorti.slidetoact.SlideToActView
+        android:id="@+id/slideunlock"
+        android:layout_width="match_parent"
+        android:layout_height="87dp"
+        android:layout_below="@+id/textv"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginBottom="48dp"
+        android:elevation="6dp"
+        app:inner_color="@color/white"
+        app:outer_color="@android:color/holo_red_light"
+        app:slider_locked="false"
+        app:text="@string/sliderlock"
+        app:text_style="bold" />
+
+    <TextView
+        android:id="@+id/textv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_help"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="55dp"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="ENVIAR ALERTA"
+        android:textColor="@android:color/holo_red_light"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

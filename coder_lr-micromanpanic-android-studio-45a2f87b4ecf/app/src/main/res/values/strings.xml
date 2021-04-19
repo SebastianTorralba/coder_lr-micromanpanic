@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">PanicAlarm</string>
+    <string name="action_settings">Configuración</string>
+    <string name="menu_volver">Volver</string>
+    <string name="menu_Cerrar">Cerrar</string>
+
+    <string-array name="menu_item">
+        <item>Ver eventos enviados</item>
+        <item>Configuración</item>
+        <item>Teléfonos Útiles</item>
+        <item>Cerrar sesión</item>
+        <item>Salir</item>
+    </string-array>
+    <string-array name="sync_items">
+        <item>Actualizar</item>
+        <item>Reset DB Local</item>
+    </string-array>
+    <string name="Subicacion_obteniendo_gps">Obteniendo ubicación GPS</string>
+    <string name="Subicacion_esperando_senial">Esperando señal GPS...</string>
+    <string name="Subicacion_ubicacion_actualizada">Ubicacion GPS Actualizada</string>
+    <string name="Subicacion_lat">Latitud</string>
+    <string name="Subicacion_long">Longitud</string>
+    <string name="Subicacion_precsicion">Precisión</string>
+    <string name="Subicacion_malasenial">\n\nMALA SEÑAL DE GPS!\nEsperando mejor precisión...</string>
+    <string name="title_activity_configuracion">Configuración</string>
+    <string name="title_activity_coder_log_reader">CoderLogReader</string>
+    <string name="title_activity_listado_cuestionario">ListadoCuestionario</string>
+    <string name="title_activity_sincronizacion">Sincronizacion</string>
+    <string name="title_activity_abm_fragment">AbmFragment</string>
+    <string name="title_activity_informar">Informar</string>
+    <string name="title_activity_actualizar">Actualizar Aplicacion</string>
+    <string name="title_activity_categorias">Seleccione una Sugerencia</string>
+    <string name="title_activity_lock">LockActivity</string>
+    <string name="activity_lock_help">Ayuda</string>
+    <string name="title_activity_tel_utiles">Teléfonos Útiles</string>
+    <string name="title_activity_eventos_enviados">Eventos Enviados</string>
+    <string name="mbloqeado">Mostrar botón de alerta en pantalla de bloqueo</string>
+    <string name="utwg">Utilizar en Widget</string>
+    <string name="mgpa">Mantener GPS activo</string>
+    <string name="mbpor">Mostrar el botón por</string>
+    <string name="sliderlock">Deslizar para activar botón</string>
+    <string name="static_shortcut_disabled_message">Enviar Alerta</string>
+    <string name="static_shortcut_long_label">Enviar Alerta</string>
+    <string name="static_shortcut_short_label">Enviar Alerta</string>
+
+</resources>

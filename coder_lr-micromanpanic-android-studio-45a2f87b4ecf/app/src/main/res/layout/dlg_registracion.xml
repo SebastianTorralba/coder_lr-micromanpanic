@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/etApellidoNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edittext_zonda"
+        android:hint="Apellido, Nombres" />
+
+    <EditText
+        android:id="@+id/etDni"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edittext_zonda"
+        android:hint="Numero DNI"
+        android:inputType="phone" />
+
+    <EditText
+        android:id="@+id/etTelefono"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edittext_zonda"
+        android:hint="Numero Telefonico"
+        android:inputType="phone" />
+
+    <EditText
+        android:id="@+id/etUsuario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edittext_zonda"
+        android:hint="Correo Electronico">
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/etClave"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edittext_zonda"
+        android:hint="Contraseña  5 o mas caracteres"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/etClaveConfirmacion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edittext_zonda"
+        android:hint="Confirmacion Contraseña"
+        android:inputType="textPassword" />
+
+</LinearLayout>

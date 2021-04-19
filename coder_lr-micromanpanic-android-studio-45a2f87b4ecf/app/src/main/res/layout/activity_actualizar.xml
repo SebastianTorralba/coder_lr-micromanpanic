@@ -1,0 +1,24 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_celeste"
+    tools:context=".ActualizarActivity" >
+
+    <TextView
+        android:id="@+id/tvCategoria"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pulse el Boton Actualizar Sistema para Descargar todos los datos necesarios para realizar Reclamos"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <Button
+        android:id="@+id/bActualizarSistema"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tvCategoria"
+        android:layout_below="@+id/tvCategoria"
+        android:background="@drawable/boton_zonda"
+        android:text="Actualizar Sistema" />
+
+</RelativeLayout>
